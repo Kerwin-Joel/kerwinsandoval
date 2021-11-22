@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Calibre';
+  src: local('Calibre'), url(./assets/fonts/Calibre-Regular.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'Calibre Bold';
+  src: local('Calibre Bold'), url(./assets/fonts/Calibre-Semibold.woff) format('woff');
+}
+@font-face {
+  font-family: 'Calibre ligth';
+  src: local('Calibre ligth'), url(./assets/fonts/Calibre-Medium.woff) format('woff');
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Calibre','Segoe UI', 'Roboto', 'Oxygen';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 10px;
+  background: #0f1020;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+a{
+  text-decoration: none;
+}
