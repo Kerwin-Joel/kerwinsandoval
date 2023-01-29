@@ -5,7 +5,7 @@ export const HeroContainer = styled.main`
     align-items: center;
     display: flex;
     height: 90vh;
-    justify-content: space-around;
+    justify-content: center;
     padding: 0 2em;
     text-transform: uppercase;
     margin-top: 3em;
@@ -23,6 +23,7 @@ export const HeroContainer = styled.main`
             background: linear-gradient(141deg, #0f1020, #b095ff, #b095ff, #0f1020);
             background-size: 800% 800%;
             animation: AnimationName 10s ease infinite;
+            margin-left: -15px;
         }
         &__title{
             margin: 2em;
@@ -51,8 +52,11 @@ export const HeroContainer = styled.main`
     }
 
     & .hero__right{
-        /* border:1px solid purple */
-    }
+        margin-left: 10%;
+        // border-right:1px solid #b095ff70;
+        width:40%;
+        height: 25vh;
+      }
 
     /* Animation title */
     @keyframes AnimationName {
@@ -70,7 +74,8 @@ export const HeroContainer = styled.main`
         margin-bottom: 10em;
         
         & .hero__left{
-            width:100%;
+            width:95%;
+            margin-left: 45px;
             &__box{
             }
             &__title{
@@ -81,6 +86,12 @@ export const HeroContainer = styled.main`
             &__description{
                 margin-bottom: 4.5em;
             }
+        }
+        & .hero__right{
+          margin-top: 20%;
+          margin-left: auto;
+          width: auto;
+          height: auto;
         }
     }
 

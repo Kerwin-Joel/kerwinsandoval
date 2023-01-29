@@ -1,7 +1,7 @@
 import React from 'react'
 import { ProjectContainer } from './index';
 import { GithubIcon } from '../../assets/img/GithubIcon';
-import Zoom from 'react-reveal/Zoom';
+// import Zoom from 'react-reveal/Zoom';
 
 
 export const Project = () => {
@@ -12,7 +12,7 @@ export const Project = () => {
                 <h1>stuff i’ve worked on 📁</h1>
             </div>
             <div className="project">
-            <Zoom>
+            {/* <Zoom> */}
                 <div className="project__card">
                     <div className="links">
                         <GithubIcon/>
@@ -27,8 +27,8 @@ export const Project = () => {
                         </div>
                     </a>
                 </div>
-            </Zoom>
-            <Zoom>
+            {/* </Zoom>
+            <Zoom> */}
                 <div className="project__card">
                     <a href="https://github.com/Kerwin-Joel/calendar-React">
                         <div className="links">
@@ -45,8 +45,8 @@ export const Project = () => {
                         </div>
                     </a>
                 </div>
-            </Zoom>
-            <Zoom>
+            {/* </Zoom>
+            <Zoom> */}
                 <div className="project__card">
                     <a href="https://github.com/Kerwin-Joel/NatoursNodejs">
                         <div className="links">
@@ -63,8 +63,8 @@ export const Project = () => {
                         </div>
                     </a>
                 </div>
-            </Zoom>
-            <Zoom>
+            {/* </Zoom> */}
+            {/* <Zoom> */}
                 <div className="project__card">
                     <a href="https://github.com/Kerwin-Joel/naviPage">
                         <div className="links">
@@ -81,8 +81,8 @@ export const Project = () => {
                         </div>
                     </a>
                 </div>
-            </Zoom>
-            <Zoom>
+            {/* </Zoom> */}
+            {/* <Zoom> */}
                 <div className="project__card">
                     <a href="https://github.com/Kerwin-Joel/Natours-turism">
                         <div className="links">
@@ -99,7 +99,7 @@ export const Project = () => {
                         </div>
                     </a>
                 </div>
-            </Zoom>
+            {/* </Zoom> */}
             </div>
         </ProjectContainer>
     )
